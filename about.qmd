@@ -45,4 +45,4 @@ Lego, Galatasaray, Horror Movies, Weight Lifting\
 
 You can download my CV here:
 
-[Download my CV](cv.pdf)
+[Download my CV](cv .pdf)
