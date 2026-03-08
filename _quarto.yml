@@ -3,6 +3,8 @@ project:
   output-dir: docs
   resources:
     - cv.pdf
+    - osimhen.gif
+
 website:
   title: "Faruk's Analytics Lab"
   navbar:
@@ -20,12 +22,12 @@ website:
             href: assignments.qmd
           - text: Project
             href: project.qmd
-            
+
     tools:
       - icon: github
-        href: https://github.com/farukdikmen
+        href: "https://github.com/farukdikmen"
       - icon: linkedin
-        href: https://www.linkedin.com/in/faruk-dikmen
+        href: "https://www.linkedin.com/in/faruk-dikmen"
 
   sidebar:
     - title: "Assignments"
@@ -34,12 +36,14 @@ website:
       contents:
         - assignments.qmd
         - assignments/assignment-1.qmd
-        - assignments/assignment-2.qmd  
+        - assignments/assignment-2.qmd
+
   page-navigation: true
   back-to-top-navigation: true
   page-footer:
-    center: "Hacettepe IE - EMU430 - 2026 Spring" 
+    center: "Hacettepe IE - EMU430 - 2026 Spring"
     border: true
+
 format:
   html:
     toc: true
@@ -49,6 +53,4 @@ format:
       dark: cyborg
     css: styles.css
 
-
 editor: visual
-

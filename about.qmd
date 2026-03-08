@@ -41,7 +41,7 @@ MS Project, AutoCAD, Canias, Excel, SQL, R, Quarto, Git, Python
 
 Lego, Galatasaray, Horror Movies, Weight Lifting\
 
-##  My CV
+## My CV
 
 You can download my CV here:
 

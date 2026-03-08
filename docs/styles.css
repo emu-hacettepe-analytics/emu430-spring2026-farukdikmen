@@ -1,1 +1,39 @@
-/* css styles */
+body {
+  background-image: url("osimhen.gif");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.navbar a,
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+
+main.content {
+  background-color: rgba(255, 255, 255, 0.88);
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.sidebar {
+  background-color: rgba(255, 255, 255, 0.88);
+  border-radius: 12px;
+  padding: 10px;
+}
+
+h1, h2, h3 {
+  color: #7a0019;
+}
+
+img {
+  border-radius: 16px;
+  max-width: 100%;
+  height: auto;
+}
