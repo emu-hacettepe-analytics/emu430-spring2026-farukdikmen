@@ -1,3 +1,4 @@
+
 ---
 title: "Assignment 1"
 execute:
@@ -19,23 +20,23 @@ The discussion also emphasizes that data science is not only about coding. It al
 
 ## Open-Ended Question
 
-**Question:**\
+**Question:**  
 Why is data science becoming increasingly important for industrial engineers?
 
-**Answer:**\
+**Answer:**  
 Data science is becoming more important for industrial engineers because many industrial problems now require data-driven decision making. Engineers need to analyze data, improve systems, optimize processes, and support better decisions using quantitative evidence.
 
 ## Multiple-Choice Question
 
-**Question:**\
+**Question:**  
 Which of the following is emphasized in the video as an important part of data science?
 
-A. Only writing code\
-B. Statistical thinking and problem solving\
-C. Graphic design\
-D. Learning foreign languages only
+A. Only writing code  
+B. Statistical thinking and problem solving  
+C. Graphic design  
+D. Learning foreign languages only  
 
-**Correct Answer:**\
+**Correct Answer:**  
 **B. Statistical thinking and problem solving**
 
 ## Data Analysis with R
@@ -125,5 +126,5 @@ anyNA(new_data)
 
 AI tools were used to help organize the assignment structure and improve the wording of the explanations.
 
-**Prompt used:**\
+**Prompt used:**  
 "Help me organize the assignment tasks, write a simple English summary of the selected video, prepare one open-ended question and one multiple-choice question with answers, and format the required R analysis in Quarto."
