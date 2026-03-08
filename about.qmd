@@ -5,26 +5,44 @@ sidebar: false
 
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2021 - ongoing.
 
 # Work Experience
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
+1.  MKE, Candidate engineer, 2026
 
-2.  Firm yyy, position yyy, year yyy
+2.  MS SPEKTRAL, Candidate engineer, 2025
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
+1.  YEO, ERP intern, 2025
 
-2.  Firm bbb, position yyy, year yyy
+2.  TANAP Doğalgaz İletim A.Ş, Procurement & Cost Management intern, 2024
+
+3.  Enerjisa, Project intern, 2024
 
 # Projects
 
+COMPARATIVE ANALYSIS OF CPM AND PERT LIMITATIONS IN STOCHASTIC PROJECT ENVIRONMENTS USING MONTE CARLO SIMULATION- Graduation Project
+
+Library Occupancy Monitoring System- SQLProject
+
+AuraFY - New Product development project
+
+Yetkin Gençler - Team Leader
+
 # Competencies
 
-R, Quarto, Git, Python
+MS Project, AutoCAD, Canias, Excel, SQL, R, Quarto, Git, Python
 
 # Hobbies
+
+Lego, Galatasaray, Horror Movies, Weight Lifting\
+
+## \## My CV
+
+You can download my CV here:
+
+[Download my CV](cv.pdf)
