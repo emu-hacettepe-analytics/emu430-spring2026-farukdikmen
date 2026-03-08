@@ -12,4 +12,61 @@ My first assignment has two parts.
 
 ## (a)
 
+## Video Summary
+
+In this video, the speakers discuss the relationship between data science and industrial engineering. They explain how data analysis, programming, and statistical thinking are becoming essential skills for industrial engineers.
+
+The conversation highlights that modern industrial engineers must be able to work with large datasets, interpret results, and support decision-making using data-driven approaches.
+
 ## (b)
+
+## Open-Ended Question
+
+**Question:**\
+Why is data science becoming increasingly important for industrial engineers?
+
+**Answer:**\
+Data science is important because industrial engineers increasingly rely on data to analyze systems, optimize processes, and make better decisions. Data-driven approaches allow engineers to identify patterns, improve efficiency, and support strategic planning in organizations.
+
+## Multiple Choice Question
+
+**Question:**\
+Which skill is emphasized in the video as important for industrial engineers working with data?
+
+A)  Graphic design\
+B)  Statistical thinking and data analysis\
+C)  Language translation\
+D)  Mechanical assembly
+
+**Correct Answer:**\
+B) Statistical thinking and data analysis
+
+## Data Analysis with R
+
+library(dslabs)
+
+data("polls_us_election_2016") data \<- polls_us_election_2016
+
+my_first \<- "Faruk" my_birth_year \<- 2003
+
+k \<- (nchar(my_first) + my_birth_year) %% 15 + 8 k
+
+if (k %% 2 == 0) { head(data, k) } else { tail(data, k) }
+
+sum(is.na(data))
+
+na_per_column \<- sort(colSums(is.na(data)), decreasing = TRUE) head(na_per_column, 8)
+
+new_data \<- data
+
+for (col in names(new_data)) { if (is.numeric(new_data\[\[col\]\])) { new_data\[\[col\]\]\[is.na(new_data\[\[col\]\])\] \<- my_birth_year + k } else if (is.character(new_data\[\[col\]\]) \|\| is.factor(new_data\[\[col\]\])) { new_data\[\[col\]\]\[is.na(new_data\[\[col\]\])\] \<- paste0(my_first, "\_", k) } }
+
+if (k %% 2 == 0) { head(new_data, k) } else { tail(new_data, k) }
+
+sum(is.na(new_data))
+
+anyNA(new_data)
+
+## AI Usage
+
+AI tools were used to help structure the assignment and improve the wording of the explanations. Prompt used: "Help me organize the assignment tasks and write example explanations."
