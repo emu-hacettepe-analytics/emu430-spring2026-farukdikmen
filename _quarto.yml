@@ -1,9 +1,10 @@
 project:
   type: website
   output-dir: docs
-
+  resources:
+    - cv.pdf
 website:
-  title: "[Student/Group Full Name]'s Analytics Lab"
+  title: "Faruk's Analytics Lab"
   navbar:
     search: true
     left:
@@ -22,11 +23,9 @@ website:
             
     tools:
       - icon: github
-        href: https://twitter.com
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/farukdikmen
       - icon: linkedin
-        href: https://linkedin.com
+        href: https://www.linkedin.com/in/faruk-dikmen
 
   sidebar:
     - title: "Assignments"
@@ -45,9 +44,9 @@ format:
   html:
     toc: true
     toc-location: left
-    theme: 
-      light: pulse 
-      dark: superhero
+    theme:
+      light: flatly
+      dark: cyborg
     css: styles.css
 
 
