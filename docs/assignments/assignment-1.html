@@ -384,16 +384,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#assignment-1" id="toc-assignment-1" class="nav-link active" data-scroll-target="#assignment-1">Assignment 1</a>
-  <ul class="collapse">
-  <li><a href="#a" id="toc-a" class="nav-link" data-scroll-target="#a">(a)</a></li>
-  <li><a href="#video-summary" id="toc-video-summary" class="nav-link" data-scroll-target="#video-summary">Video Summary</a></li>
-  <li><a href="#b" id="toc-b" class="nav-link" data-scroll-target="#b">(b)</a></li>
+  <li><a href="#selected-video" id="toc-selected-video" class="nav-link active" data-scroll-target="#selected-video">Selected Video</a></li>
+  <li><a href="#brief-summary" id="toc-brief-summary" class="nav-link" data-scroll-target="#brief-summary">Brief Summary</a></li>
   <li><a href="#open-ended-question" id="toc-open-ended-question" class="nav-link" data-scroll-target="#open-ended-question">Open-Ended Question</a></li>
-  <li><a href="#multiple-choice-question" id="toc-multiple-choice-question" class="nav-link" data-scroll-target="#multiple-choice-question">Multiple Choice Question</a></li>
-  <li><a href="#data-analysis-with-r" id="toc-data-analysis-with-r" class="nav-link" data-scroll-target="#data-analysis-with-r">Data Analysis with R</a></li>
-  <li><a href="#ai-usage" id="toc-ai-usage" class="nav-link" data-scroll-target="#ai-usage">AI Usage</a></li>
+  <li><a href="#multiple-choice-question" id="toc-multiple-choice-question" class="nav-link" data-scroll-target="#multiple-choice-question">Multiple-Choice Question</a></li>
+  <li><a href="#data-analysis-with-r" id="toc-data-analysis-with-r" class="nav-link" data-scroll-target="#data-analysis-with-r">Data Analysis with R</a>
+  <ul class="collapse">
+  <li><a href="#load-the-dataset" id="toc-load-the-dataset" class="nav-link" data-scroll-target="#load-the-dataset">Load the dataset</a></li>
+  <li><a href="#define-personal-variables" id="toc-define-personal-variables" class="nav-link" data-scroll-target="#define-personal-variables">Define personal variables</a></li>
+  <li><a href="#calculate-k" id="toc-calculate-k" class="nav-link" data-scroll-target="#calculate-k">Calculate k</a></li>
+  <li><a href="#display-rows-from-the-original-dataset" id="toc-display-rows-from-the-original-dataset" class="nav-link" data-scroll-target="#display-rows-from-the-original-dataset">Display rows from the original dataset</a></li>
+  <li><a href="#total-number-of-na-values-in-the-dataset" id="toc-total-number-of-na-values-in-the-dataset" class="nav-link" data-scroll-target="#total-number-of-na-values-in-the-dataset">Total number of NA values in the dataset</a></li>
+  <li><a href="#number-of-na-values-per-column-top-8" id="toc-number-of-na-values-per-column-top-8" class="nav-link" data-scroll-target="#number-of-na-values-per-column-top-8">Number of NA values per column (top 8)</a></li>
+  <li><a href="#replace-missing-values-in-a-new-dataset" id="toc-replace-missing-values-in-a-new-dataset" class="nav-link" data-scroll-target="#replace-missing-values-in-a-new-dataset">Replace missing values in a new dataset</a></li>
+  <li><a href="#display-rows-from-the-new-dataset" id="toc-display-rows-from-the-new-dataset" class="nav-link" data-scroll-target="#display-rows-from-the-new-dataset">Display rows from the new dataset</a></li>
+  <li><a href="#total-number-of-remaining-na-values" id="toc-total-number-of-remaining-na-values" class="nav-link" data-scroll-target="#total-number-of-remaining-na-values">Total number of remaining NA values</a></li>
+  <li><a href="#check-with-anyna" id="toc-check-with-anyna" class="nav-link" data-scroll-target="#check-with-anyna">Check with anyNA()</a></li>
   </ul></li>
+  <li><a href="#ai-usage" id="toc-ai-usage" class="nav-link" data-scroll-target="#ai-usage">AI Usage</a></li>
   </ul>
 </nav>
 </nav>
@@ -424,70 +432,322 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="assignment-1" class="level1">
-<h1>Assignment 1</h1>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
-<p>My first assignment has two parts.</p>
-<section id="a" class="level2">
-<h2 class="anchored" data-anchor-id="a">(a)</h2>
+<section id="selected-video" class="level2">
+<h2 class="anchored" data-anchor-id="selected-video">Selected Video</h2>
+<p><strong>Video Title:</strong> Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Kerem Demirtaş &amp; Erdi Dasdemir</p>
 </section>
-<section id="video-summary" class="level2">
-<h2 class="anchored" data-anchor-id="video-summary">Video Summary</h2>
-<p>In this video, the speakers discuss the relationship between data science and industrial engineering. They explain how data analysis, programming, and statistical thinking are becoming essential skills for industrial engineers.</p>
-<p>The conversation highlights that modern industrial engineers must be able to work with large datasets, interpret results, and support decision-making using data-driven approaches.</p>
-</section>
-<section id="b" class="level2">
-<h2 class="anchored" data-anchor-id="b">(b)</h2>
+<section id="brief-summary" class="level2">
+<h2 class="anchored" data-anchor-id="brief-summary">Brief Summary</h2>
+<p>In this video, the speakers discuss the relationship between data science and industrial engineering. They explain that industrial engineers are increasingly expected to work with data, develop analytical thinking skills, and use programming tools to solve real-world problems.</p>
+<p>The discussion also emphasizes that data science is not only about coding. It also requires understanding the business problem, interpreting the results correctly, and communicating insights clearly. The video highlights the importance of combining technical knowledge with practical decision-making skills.</p>
 </section>
 <section id="open-ended-question" class="level2">
 <h2 class="anchored" data-anchor-id="open-ended-question">Open-Ended Question</h2>
 <p><strong>Question:</strong><br>
 Why is data science becoming increasingly important for industrial engineers?</p>
 <p><strong>Answer:</strong><br>
-Data science is important because industrial engineers increasingly rely on data to analyze systems, optimize processes, and make better decisions. Data-driven approaches allow engineers to identify patterns, improve efficiency, and support strategic planning in organizations.</p>
+Data science is becoming more important for industrial engineers because many industrial problems now require data-driven decision making. Engineers need to analyze data, improve systems, optimize processes, and support better decisions using quantitative evidence.</p>
 </section>
 <section id="multiple-choice-question" class="level2">
-<h2 class="anchored" data-anchor-id="multiple-choice-question">Multiple Choice Question</h2>
+<h2 class="anchored" data-anchor-id="multiple-choice-question">Multiple-Choice Question</h2>
 <p><strong>Question:</strong><br>
-Which skill is emphasized in the video as important for industrial engineers working with data?</p>
-<ol type="A">
-<li>Graphic design<br>
-</li>
-<li>Statistical thinking and data analysis<br>
-</li>
-<li>Language translation<br>
-</li>
-<li>Mechanical assembly</li>
-</ol>
+Which of the following is emphasized in the video as an important part of data science?</p>
+<p>A. Only writing code<br>
+B. Statistical thinking and problem solving<br>
+C. Graphic design<br>
+D. Learning foreign languages only</p>
 <p><strong>Correct Answer:</strong><br>
-B) Statistical thinking and data analysis</p>
+<strong>B. Statistical thinking and problem solving</strong></p>
 </section>
 <section id="data-analysis-with-r" class="level2">
 <h2 class="anchored" data-anchor-id="data-analysis-with-r">Data Analysis with R</h2>
-<p>library(dslabs)</p>
-<p>data(“polls_us_election_2016”) data &lt;- polls_us_election_2016</p>
-<p>my_first &lt;- “Faruk” my_birth_year &lt;- 2003</p>
-<p>k &lt;- (nchar(my_first) + my_birth_year) %% 15 + 8 k</p>
-<p>if (k %% 2 == 0) { head(data, k) } else { tail(data, k) }</p>
-<p>sum(is.na(data))</p>
-<p>na_per_column &lt;- sort(colSums(is.na(data)), decreasing = TRUE) head(na_per_column, 8)</p>
-<p>new_data &lt;- data</p>
-<p>for (col in names(new_data)) { if (is.numeric(new_data[[col]])) { new_data[[col]][is.na(new_data[[col]])] &lt;- my_birth_year + k } else if (is.character(new_data[[col]]) || is.factor(new_data[[col]])) { new_data[[col]][is.na(new_data[[col]])] &lt;- paste0(my_first, “_”, k) } }</p>
-<p>if (k %% 2 == 0) { head(new_data, k) } else { tail(new_data, k) }</p>
-<p>sum(is.na(new_data))</p>
-<p>anyNA(new_data)</p>
+<section id="load-the-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="load-the-dataset">Load the dataset</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dslabs)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(<span class="st">"polls_us_election_2016"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> polls_us_election_2016</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="define-personal-variables" class="level3">
+<h3 class="anchored" data-anchor-id="define-personal-variables">Define personal variables</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>my_first <span class="ot">&lt;-</span> <span class="st">"Faruk"</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>my_birth_year <span class="ot">&lt;-</span> <span class="dv">2003</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="calculate-k" class="level3">
+<h3 class="anchored" data-anchor-id="calculate-k">Calculate k</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>k <span class="ot">&lt;-</span> (<span class="fu">nchar</span>(my_first) <span class="sc">+</span> my_birth_year) <span class="sc">%%</span> <span class="dv">15</span> <span class="sc">+</span> <span class="dv">8</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>k</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 21</code></pre>
+</div>
+</div>
+</section>
+<section id="display-rows-from-the-original-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="display-rows-from-the-original-dataset">Display rows from the original dataset</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (k <span class="sc">%%</span> <span class="dv">2</span> <span class="sc">==</span> <span class="dv">0</span>) {</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(data, k)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tail</span>(data, k)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>              state  startdate    enddate                pollster grade
+4188 South Carolina 2016-09-23 2016-10-06                   Ipsos    A-
+4189           Utah 2016-10-25 2016-10-31 Google Consumer Surveys     B
+4190  New Hampshire 2016-01-04 2016-01-06   Public Policy Polling    B+
+4191        Florida 2016-06-08 2016-06-19   Quinnipiac University    A-
+4192           Ohio 2016-06-08 2016-06-19   Quinnipiac University    A-
+4193       New York 2016-02-28 2016-03-03           Siena College     A
+4194 North Carolina 2016-09-27 2016-10-02   Quinnipiac University    A-
+4195 North Carolina 2016-02-14 2016-02-16               SurveyUSA     A
+4196 North Carolina 2016-05-20 2016-05-22   Public Policy Polling    B+
+4197       Kentucky 2016-09-30 2016-10-13                   Ipsos    A-
+4198        Florida 2016-07-30 2016-08-07   Quinnipiac University    A-
+4199   Pennsylvania 2016-06-08 2016-06-19   Quinnipiac University    A-
+4200           Ohio 2016-06-30 2016-07-11   Quinnipiac University    A-
+4201 North Carolina 2016-03-18 2016-03-20   Public Policy Polling    B+
+4202   South Dakota 2016-10-28 2016-11-02                   Ipsos    A-
+4203     Washington 2016-10-21 2016-11-02                   Ipsos    A-
+4204       Virginia 2016-09-16 2016-09-22                   Ipsos    A-
+4205      Wisconsin 2016-08-04 2016-08-07    Marquette University     A
+4206           Utah 2016-11-01 2016-11-07 Google Consumer Surveys     B
+4207         Oregon 2016-10-21 2016-11-02                   Ipsos    A-
+4208       Michigan 2016-01-23 2016-01-26                EPIC-MRA    A-
+     samplesize population rawpoll_clinton rawpoll_trump rawpoll_johnson
+4188        258         lv           46.67         48.25              NA
+4189        245         lv           28.18         29.39            8.40
+4190       1036          v           50.00         36.00              NA
+4191        975         rv           42.00         36.00            7.00
+4192        971         rv           38.00         36.00            8.00
+4193        800         rv           57.00         34.00              NA
+4194        507         lv           46.00         43.00            7.00
+4195       1250         lv           43.00         45.00              NA
+4196        928          v           41.00         43.00            3.00
+4197        336         lv           39.38         53.08              NA
+4198       1056         lv           43.00         43.00            7.00
+4199        950         rv           39.00         36.00            9.00
+4200        955         rv           36.00         37.00            7.00
+4201        843          v           44.00         42.00              NA
+4202        170         lv           28.45         47.20              NA
+4203        538         lv           46.71         38.33              NA
+4204        452         lv           46.54         40.04              NA
+4205        683         lv           47.00         34.00            9.00
+4206        286         lv           21.33         35.05            9.99
+4207        446         lv           46.46         37.41              NA
+4208        600         lv           43.00         41.00              NA
+     rawpoll_mcmullin adjpoll_clinton adjpoll_trump adjpoll_johnson
+4188               NA        46.20387      49.13322              NA
+4189               NA        33.61454      36.01090        7.458243
+4190               NA        47.81869      35.91267              NA
+4191               NA        46.44439      41.33270        2.791570
+4192               NA        42.46502      41.36491        3.791570
+4193               NA        56.98850      38.83402              NA
+4194               NA        47.79437      44.86935        4.022323
+4195               NA        39.90517      44.40152              NA
+4196               NA        43.28262      47.12021       -0.036293
+4197               NA        38.34430      54.36357              NA
+4198               NA        45.19351      46.65680        3.448447
+4199               NA        43.35339      41.19061        4.791570
+4200               NA        40.73937      42.33380        2.936299
+4201               NA        42.13165      43.55006              NA
+4202               NA        26.57791      45.43384              NA
+4203               NA        45.56387      38.22545              NA
+4204               NA        46.47852      40.48017              NA
+4205               NA        48.74781      39.07778        4.705020
+4206               NA        26.65200      40.57738        9.705791
+4207               NA        45.12949      37.10720              NA
+4208               NA        42.14966      42.05508              NA
+     adjpoll_mcmullin
+4188               NA
+4189               NA
+4190               NA
+4191               NA
+4192               NA
+4193               NA
+4194               NA
+4195               NA
+4196               NA
+4197               NA
+4198               NA
+4199               NA
+4200               NA
+4201               NA
+4202               NA
+4203               NA
+4204               NA
+4205               NA
+4206               NA
+4207               NA
+4208               NA</code></pre>
+</div>
+</div>
+</section>
+<section id="total-number-of-na-values-in-the-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="total-number-of-na-values-in-the-dataset">Total number of NA values in the dataset</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>(<span class="fu">is.na</span>(data))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 11604</code></pre>
+</div>
+</div>
+</section>
+<section id="number-of-na-values-per-column-top-8" class="level3">
+<h3 class="anchored" data-anchor-id="number-of-na-values-per-column-top-8">Number of NA values per column (top 8)</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>na_per_column <span class="ot">&lt;-</span> <span class="fu">sort</span>(<span class="fu">colSums</span>(<span class="fu">is.na</span>(data)), <span class="at">decreasing =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(na_per_column, <span class="dv">8</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>rawpoll_mcmullin adjpoll_mcmullin  rawpoll_johnson  adjpoll_johnson 
+            4178             4178             1409             1409 
+           grade       samplesize            state        startdate 
+             429                1                0                0 </code></pre>
+</div>
+</div>
+</section>
+<section id="replace-missing-values-in-a-new-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="replace-missing-values-in-a-new-dataset">Replace missing values in a new dataset</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>new_data <span class="ot">&lt;-</span> data</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (col <span class="cf">in</span> <span class="fu">names</span>(new_data)) {</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">is.numeric</span>(new_data[[col]])) {</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>    new_data[[col]][<span class="fu">is.na</span>(new_data[[col]])] <span class="ot">&lt;-</span> my_birth_year <span class="sc">+</span> k</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> <span class="cf">if</span> (<span class="fu">is.character</span>(new_data[[col]]) <span class="sc">||</span> <span class="fu">is.factor</span>(new_data[[col]])) {</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>    new_data[[col]][<span class="fu">is.na</span>(new_data[[col]])] <span class="ot">&lt;-</span> <span class="fu">paste0</span>(my_first, <span class="st">"_"</span>, k)</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="display-rows-from-the-new-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="display-rows-from-the-new-dataset">Display rows from the new dataset</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (k <span class="sc">%%</span> <span class="dv">2</span> <span class="sc">==</span> <span class="dv">0</span>) {</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(new_data, k)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tail</span>(new_data, k)</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>              state  startdate    enddate                pollster grade
+4188 South Carolina 2016-09-23 2016-10-06                   Ipsos    A-
+4189           Utah 2016-10-25 2016-10-31 Google Consumer Surveys     B
+4190  New Hampshire 2016-01-04 2016-01-06   Public Policy Polling    B+
+4191        Florida 2016-06-08 2016-06-19   Quinnipiac University    A-
+4192           Ohio 2016-06-08 2016-06-19   Quinnipiac University    A-
+4193       New York 2016-02-28 2016-03-03           Siena College     A
+4194 North Carolina 2016-09-27 2016-10-02   Quinnipiac University    A-
+4195 North Carolina 2016-02-14 2016-02-16               SurveyUSA     A
+4196 North Carolina 2016-05-20 2016-05-22   Public Policy Polling    B+
+4197       Kentucky 2016-09-30 2016-10-13                   Ipsos    A-
+4198        Florida 2016-07-30 2016-08-07   Quinnipiac University    A-
+4199   Pennsylvania 2016-06-08 2016-06-19   Quinnipiac University    A-
+4200           Ohio 2016-06-30 2016-07-11   Quinnipiac University    A-
+4201 North Carolina 2016-03-18 2016-03-20   Public Policy Polling    B+
+4202   South Dakota 2016-10-28 2016-11-02                   Ipsos    A-
+4203     Washington 2016-10-21 2016-11-02                   Ipsos    A-
+4204       Virginia 2016-09-16 2016-09-22                   Ipsos    A-
+4205      Wisconsin 2016-08-04 2016-08-07    Marquette University     A
+4206           Utah 2016-11-01 2016-11-07 Google Consumer Surveys     B
+4207         Oregon 2016-10-21 2016-11-02                   Ipsos    A-
+4208       Michigan 2016-01-23 2016-01-26                EPIC-MRA    A-
+     samplesize population rawpoll_clinton rawpoll_trump rawpoll_johnson
+4188        258         lv           46.67         48.25         2024.00
+4189        245         lv           28.18         29.39            8.40
+4190       1036          v           50.00         36.00         2024.00
+4191        975         rv           42.00         36.00            7.00
+4192        971         rv           38.00         36.00            8.00
+4193        800         rv           57.00         34.00         2024.00
+4194        507         lv           46.00         43.00            7.00
+4195       1250         lv           43.00         45.00         2024.00
+4196        928          v           41.00         43.00            3.00
+4197        336         lv           39.38         53.08         2024.00
+4198       1056         lv           43.00         43.00            7.00
+4199        950         rv           39.00         36.00            9.00
+4200        955         rv           36.00         37.00            7.00
+4201        843          v           44.00         42.00         2024.00
+4202        170         lv           28.45         47.20         2024.00
+4203        538         lv           46.71         38.33         2024.00
+4204        452         lv           46.54         40.04         2024.00
+4205        683         lv           47.00         34.00            9.00
+4206        286         lv           21.33         35.05            9.99
+4207        446         lv           46.46         37.41         2024.00
+4208        600         lv           43.00         41.00         2024.00
+     rawpoll_mcmullin adjpoll_clinton adjpoll_trump adjpoll_johnson
+4188             2024        46.20387      49.13322     2024.000000
+4189             2024        33.61454      36.01090        7.458243
+4190             2024        47.81869      35.91267     2024.000000
+4191             2024        46.44439      41.33270        2.791570
+4192             2024        42.46502      41.36491        3.791570
+4193             2024        56.98850      38.83402     2024.000000
+4194             2024        47.79437      44.86935        4.022323
+4195             2024        39.90517      44.40152     2024.000000
+4196             2024        43.28262      47.12021       -0.036293
+4197             2024        38.34430      54.36357     2024.000000
+4198             2024        45.19351      46.65680        3.448447
+4199             2024        43.35339      41.19061        4.791570
+4200             2024        40.73937      42.33380        2.936299
+4201             2024        42.13165      43.55006     2024.000000
+4202             2024        26.57791      45.43384     2024.000000
+4203             2024        45.56387      38.22545     2024.000000
+4204             2024        46.47852      40.48017     2024.000000
+4205             2024        48.74781      39.07778        4.705020
+4206             2024        26.65200      40.57738        9.705791
+4207             2024        45.12949      37.10720     2024.000000
+4208             2024        42.14966      42.05508     2024.000000
+     adjpoll_mcmullin
+4188             2024
+4189             2024
+4190             2024
+4191             2024
+4192             2024
+4193             2024
+4194             2024
+4195             2024
+4196             2024
+4197             2024
+4198             2024
+4199             2024
+4200             2024
+4201             2024
+4202             2024
+4203             2024
+4204             2024
+4205             2024
+4206             2024
+4207             2024
+4208             2024</code></pre>
+</div>
+</div>
+</section>
+<section id="total-number-of-remaining-na-values" class="level3">
+<h3 class="anchored" data-anchor-id="total-number-of-remaining-na-values">Total number of remaining NA values</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>(<span class="fu">is.na</span>(new_data))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 429</code></pre>
+</div>
+</div>
+</section>
+<section id="check-with-anyna" class="level3">
+<h3 class="anchored" data-anchor-id="check-with-anyna">Check with anyNA()</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">anyNA</span>(new_data)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+</div>
+</section>
 </section>
 <section id="ai-usage" class="level2">
 <h2 class="anchored" data-anchor-id="ai-usage">AI Usage</h2>
-<p>AI tools were used to help structure the assignment and improve the wording of the explanations. Prompt used: “Help me organize the assignment tasks and write example explanations.”</p>
+<p>AI tools were used to help organize the assignment structure and improve the wording of the explanations.</p>
+<p><strong>Prompt used:</strong><br>
+“Help me organize the assignment tasks, write a simple English summary of the selected video, prepare one open-ended question and one multiple-choice question with answers, and format the required R analysis in Quarto.”</p>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
